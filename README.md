@@ -3,4 +3,15 @@
 - ### Objetivo do Repositório: 
     - ### Armazenar código e anotações feito em sala de aula
 
-<img src="https://www.alfaumuarama.edu.br/fau/images/logo_novo.png?v=1658881864">
+# 
+
+#### Comandos de configuração do git na máquina
+
+```
+git config user.name "UsernameGithub"
+```
+
+
+```
+git config user.email teste@gmail.com
+```
