@@ -1,3 +1,10 @@
+## Turma 12 de Sistema Para Internet
+
+- ### Objetivo do Repositório: 
+    - ### Armazenar código e anotações feito em sala de aula
+
+# 
+
 #### Comandos de configuração do git na máquina
 
 ```
