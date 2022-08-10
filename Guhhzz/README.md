@@ -35,5 +35,4 @@ Sou um jovem que busca crescimente além do meu alcançe, busco conhecimentos qu
 
    **TMJ Professor**  
 
-😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎
-
+- 😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎
