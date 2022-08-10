@@ -1,6 +1,2 @@
-     /// Teste \\\
-      ¯\_(ツ)_/¯
-
-(👍≖‿‿≖)👍 👍(≖‿‿≖👍)
-
-     \\\ FIM ///
+Olá eu sou big max, seu agente pessoal de saúde. 
+<img src="https://www.google.com/search?q=gif+bigmax&rlz=1C1FCXM_pt-PTBR993BR993&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj7lLmQ_7r5AhWks5UCHRxICwkQ_AUoAXoECAEQAw&biw=1920&bih=969&dpr=1#imgrc=BsDp5Dl7OM_vkM">
