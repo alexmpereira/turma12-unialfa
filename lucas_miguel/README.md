@@ -10,4 +10,4 @@ Pretendo focar em desenvolvimento de sites, atualmente estou desenvolvendo um pa
 
 Esse é um resumo do resumo do motivo que estou aqui, e do que vendo fazendo atualmente, espero que tenha gostado!
 
-- Lucas Miguel Ferreira
+Lucas Miguel Ferreira
