@@ -4,8 +4,8 @@
 #
 
 > ## **Sobre:**
-    >- ## Meu nome é Carolina Aguera
-    >- ## Tenho 20 Anos
+    >- ## My name is Carolina Aguera
+    >- ## I have a 20 years old
     >- ## Atualmente sou Desenvolvedora FullStack na **[Gazin Tech](https://gazintech.com.br/)**
     >- ## _**[Linkedin](https://www.linkedin.com/in/carolina-aguera/)**_
 
