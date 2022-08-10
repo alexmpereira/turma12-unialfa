@@ -5,4 +5,4 @@ Eu sou o **Victor Ramos** tenho 20 anos e trabalho na Gazin, originalmente no de
 
 Fora do ambito profissional sou músico, gosto demaaais de design, estou noivo de uma linda mulher e sou estudante de **Sistemas para Internet na Uni Alfa**.
 
-Aula 3 - Algo a mais
+Aula 3 - **Algo a mais**
