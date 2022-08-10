@@ -9,3 +9,5 @@ Após me formar no colégio, eu queria fazer uma faculdade de jogos, eu tinha at
 Pretendo focar em desenvolvimento de sites, atualmente estou desenvolvendo um para uma transportadora de Curitiba, eu pretendo também fazer alguns trabalhos relacionados a design, como por exemplo, mês passado fiz uma logo para uma empresa daqui de Umuarama, foi a primeira que eu fiz e eles gostaram muito do resultado, espero atingir o mesmo com o site.
 
 Esse é um resumo do resumo do motivo que estou aqui, e do que vendo fazendo atualmente, espero que tenha gostado!
+
+Lucas Miguel Ferreira
