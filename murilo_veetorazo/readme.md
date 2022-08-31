@@ -1,0 +1,2 @@
+- Oi tudo bem?
+- Olha bem é o cara que comprou a Ferrari semana passada, eu to indo
