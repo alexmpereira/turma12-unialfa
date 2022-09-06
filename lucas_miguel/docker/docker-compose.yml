@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  nginx:
+    container_name: container_nginx
+    image: unialfa-nginx
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - "8000:80"
+    volumes:
+      - ./html:/usr/share/nginx/html
