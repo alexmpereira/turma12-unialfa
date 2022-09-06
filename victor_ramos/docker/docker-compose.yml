@@ -1,0 +1,15 @@
+version: '3'
+
+#services é = a um conteiner neste caso
+
+services: 
+  nginx:
+    container_name: container-nginx
+    image: unialfa-nginx
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - "8000:80"
+    volumes:
+      - ./html:/usr/share/njinx/html

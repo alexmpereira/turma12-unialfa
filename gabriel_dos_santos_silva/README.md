@@ -13,4 +13,4 @@ na **GazinLabs** (hoje, GazinTech). Eu sempre fui fascinado em
 tecnologia, e começar minha carreira diretamente na área que almejava
 alavancou ainda mais o meu gosto por esse trabalho! Hoje, efetivado,
 sou desenvolvedor do time Super Sayajins Squad, seguindo evoluindo e
-ajudando a nave GazinTech!
+ajudando a nave GazinTech! 
