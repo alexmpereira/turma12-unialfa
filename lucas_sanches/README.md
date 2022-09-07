@@ -17,4 +17,4 @@
         Ex: mysql, postgre, node, etc...
 
     3.Qual comando temos que digitar no Shell para listar todos os containers.
-        docker ps -a
+        docker ps -a   
