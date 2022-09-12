@@ -1,11 +1,8 @@
 # trabalho1-alex
-perguntas:
-1-O que é container?
-R:Um container é um ambiente isolado utilizado para implementação aplicações.
+**NOME:Calisson Gabriel Martins Ferreira**
 
-2-Qual a diferença do container para as imagens?
-R:A imagem é um arquivo,é uma representação estática do aplicativo ou do serviço e de sua configuração e dependências e o contêiner é um processo com restrições. No entanto, ao invés de executar um único arquivo binário, um contêiner executa uma imagem.
+Me chamo Calisson tenho 20 anos, moro na cidade de Douradina PR onde nasci, fui     criado e moro até hoje, trabalho na farmacia Duccifarma a dois anos e meio. No meu horario livre que não é muito kkkkkkk gosto de ir jogar um volei, jogar no pc e tomar um chopp. Começei a fazer sistema para internet por influencia dos amigos e assim que iniciei o curso gostei muito, o tempo foi passando e chegou java dai quase fiquei louco mas acostumei e estou normal até hoje eu acho kkkkkkk.
 
-3-Qual container temos que digitar no Shell para listar todos os container?
-
-R:docker ps -a
+-fofoqueiro 
+-lindo 
+-atencioso
