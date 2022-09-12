@@ -11,3 +11,21 @@ Pretendo focar em desenvolvimento de sites, atualmente estou desenvolvendo um pa
 Esse é um resumo do resumo do motivo que estou aqui, e do que vendo fazendo atualmente, espero que tenha gostado!
 
 Lucas Miguel Ferreira
+
+#
+
+## *Questões*
+
+***1- O que é container?***
+
+Docker é uma tecnologia de containerização para criação e uso de containers Linux, com ele é  possível lidar com os containers como se fossem máquinas virtuais modulares e extremamente leves. Além de terem mais flexibilidade para criar, implantar, copiar e migrar um container de um ambiente para outro.
+
+***2- Qual a diferença do Container para as imagens?***
+
+A principal diferença é que você não pode executar diretamente uma imagem, e a mesma é somente leitura, um modelo que será utilizado por um container.
+
+O container permite que você execute o que está definido em uma imagem, de forma que as alterações que aconteçam em tempo de execução não são persistidas de volta na imagem base.
+
+***3- Qual comando temos que digitar no Shell para listar todos os containers?***
+
+docker ps -a
