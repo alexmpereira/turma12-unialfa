@@ -8,6 +8,6 @@ R:A imagem é um arquivo,é uma representação estática do aplicativo ou do se
 
 3-Qual container temos que digitar no Shell para listar todos os container?
 
-R:docker ps -a
+R:docker ps -a.
 
 
