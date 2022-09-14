@@ -1,0 +1,17 @@
+.card {
+    background-color: #303030;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    width: 200px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.card:hover {
+    filter: brightness(1.2);
+}
+
+h2 {
+    text-align: center;
+}
