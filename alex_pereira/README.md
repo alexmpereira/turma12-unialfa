@@ -1,0 +1,5 @@
+- Fofoqueiro
+- Fazendeiro
+- Nerd
+- Polemico
+- Véio da lancha
