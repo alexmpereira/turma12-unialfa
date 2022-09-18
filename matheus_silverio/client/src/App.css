@@ -1,0 +1,13 @@
+.App {
+    display: flex;
+}
+
+.App__block {
+    width: 300px;
+    aspect-ratio: 1/1;
+    background-color: red;
+    display: grid;
+    place-items: center;
+    font-size: 30px;
+    margin: 10px;
+}
