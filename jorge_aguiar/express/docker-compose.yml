@@ -1,0 +1,9 @@
+services:
+  node_aula:
+    container_name: node_aula
+    image: node
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports: 
+      - "8080:3000"
