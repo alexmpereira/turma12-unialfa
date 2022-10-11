@@ -1,0 +1,9 @@
+{
+    "name": "lucas_miguel/poo",
+    "autoload": {
+        "psr-4": {
+            "Unialfa\\Poo\\": "src/"
+        }
+    },
+    "require": {}
+}
