@@ -1,4 +1,4 @@
-	FROM php:8.1.0-fpm
+FROM php:8.1.0-fpm
 
 RUN usermod -u 1000 -s /bin/bash www-data && groupmod -g 1000 www-data
 
@@ -18,7 +18,7 @@ RUN apt-get update && apt-get install -y \
     libicu-dev \
     locales-all \
     task-brazilian-portuguese \
-    ghost \
+    ghostscript \
     libaio-dev \
     libzip-dev \
     wget \

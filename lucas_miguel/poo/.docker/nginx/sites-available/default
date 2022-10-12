@@ -37,7 +37,7 @@ server {
         }
 
 
-	# pass the PHP s to FastCGI server listening on socket
+	# pass the PHP scripts to FastCGI server listening on socket
 	#
 	location ~ \.php$ {
         proxy_set_header  Host $host;
@@ -48,7 +48,7 @@ server {
 
         fastcgi_pass 127.0.0.1:9000;
         fastcgi_index index.php;
-        fastcgi_param _FILENAME $realpath_root$fastcgi__name;
+        fastcgi_param SCRIPT_FILENAME $realpath_root$fastcgi_script_name;
         fastcgi_read_timeout 1200;
         include fastcgi_params;
 	}
@@ -74,7 +74,7 @@ server {
         access_log off;
         fastcgi_pass 127.0.0.1:9000;
         include fastcgi_params;
-        fastcgi_param _FILENAME $document_root$fastcgi__name;  
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;  
     }
 
 	location /nginx_status {

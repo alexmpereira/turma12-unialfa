@@ -29,7 +29,7 @@ services:
       - minha-rede
     restart: unless-stopped
 
-  pgadmin:a
+  pgadmin:
     container_name: pgadmin
     image: dpage/pgadmin4
     environment:
