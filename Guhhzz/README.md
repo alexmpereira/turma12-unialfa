@@ -51,5 +51,3 @@ R: Imagem não é executável, apenas leitura, sendo um modelo necessário para 
 # 3. Qual comando temos que digitar no shell para listar todos os containers? 
 
 R: docker ps -a
-
-# Gazin Tech - Sempre o melhor em tecnologia e inovação. 
