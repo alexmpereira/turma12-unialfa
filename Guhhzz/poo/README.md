@@ -1,1 +1,0 @@
-# esqueleto-php
