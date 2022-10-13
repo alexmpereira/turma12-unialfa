@@ -52,7 +52,4 @@ R: Imagem não é executável, apenas leitura, sendo um modelo necessário para 
 
 R: docker ps -a
 
-#  Gazin Tech - Sempre o melhor em tecnologia e inovação. 
-
-
-
+# Gazin Tech - Sempre o melhor em tecnologia e inovação. 
