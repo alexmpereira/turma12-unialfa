@@ -1,0 +1,1 @@
+Objetivo do projeto é criar um container docker automaticamente com docker-compose e Dockerfile
