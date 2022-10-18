@@ -32,10 +32,9 @@ Sou um jovem que busca crescimente além do meu alcançe, busco conhecimentos qu
 * Forte conhecimento com a comunicação ao cliente. 
 
 * Conhecimento com a parte de Hardware. 
+ 
 
-   **TMJ Professor**  
-
-- 😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎
+**  GAZIN < TECH >
 
 
 # Exercicios sobre Docker!
