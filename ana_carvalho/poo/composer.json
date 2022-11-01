@@ -1,0 +1,17 @@
+{
+    "name": "ana_carvalho/poo",
+    "autoload": {
+        "psr-4": {
+            "Unialfa\\Poo\\": "src/"
+        }
+    },
+    
+    "authors": [
+        {
+            "name": "AnaCarvalho3",
+            "email": "anacarvalho3197@gmail.com"
+        }
+    ],
+    "require": {}
+}
+ 
