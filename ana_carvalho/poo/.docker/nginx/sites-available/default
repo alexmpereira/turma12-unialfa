@@ -37,6 +37,7 @@ server {
         }
 
 
+
 	# pass the PHP scripts to FastCGI server listening on socket
 	#
 	location ~ \.php$ {
