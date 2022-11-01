@@ -1,0 +1,16 @@
+{
+    "name": "danielclaus/poo",
+    "autoload": {
+        "psr-4": {
+            "Unialfa\\Poo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "danielclaus",
+            "email": "danclaus2002@gmail.com"
+        }
+    ],
+    "require": {}
+    
+}
