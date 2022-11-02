@@ -8,7 +8,8 @@ class FormaBolo {
     public array $ingredientes;
     public int $tempoForno;
 
-    public function fazerBolo(): void {
+    public function fazerBolo(): void 
+    {
         $this->misturarIngredientes();
     }
 
@@ -25,7 +26,15 @@ class FormaBolo {
     }
 
 
+    public function colocarNoForno(int $tempoForno = 1): void 
+    {
+        $this->tempoForno = $tempoForno;
+    }
+
+    public function colocarIngredientes(array $ingredientes = ['mandioca', 'alface']): void 
+    {
+        $this->ingredientes = $ingredientes;
+    }
+
+
 }
-
-
-?>
