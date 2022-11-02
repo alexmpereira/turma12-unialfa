@@ -3,10 +3,9 @@
 require_once __DIR__ . '/../vendor/autoload.php';
 
 use Unialfa\Poo\FormaBolo;
+$tempoDeForno = $_REQUEST["tempoDeForno"];
 
 $turmaBolo = new FormaBolo();
-$outroBolo = new FormaBolo();
+$turmaBolo->fazerBolo();
+$turmaBolo->colocarNoForno($tempoDeForno);
 
-var_dump($turmaBolo);
-echo '<br>';
-var_dump($outroBolo);
