@@ -2,10 +2,10 @@
 
 namespace Unialfa\Poo;
 
-class Formabolo 
+class FormaBolo 
 {
-    public array $ingredientes;
-    public int $tempoForno;
+    public array $ingredientes = ["Farinha", "Ovo", "Leite", "Açucar"];
+    public int $tempoForno = 1;
 
     public function fazerBolo(): void 
     {
@@ -18,7 +18,13 @@ class Formabolo
             echo "Não temos ingredientes suficientes";
             return;
         }
-        echo "misturando ingredientes." . json_encode($this->ingredientes); 
+        echo "isturando ingredientes " . json_encode($this->ingredientes . '<br>'); 
+    }
+
+    public function colocarNoForno( int $tempoForno = 1): void
+    {
+        $this->tempoForno = $tempoForno;
+        echo "Colocando no forno o bolo, tempo para ficar pronto é de $this->tempoForno horas <br>";
     }
 }
 
