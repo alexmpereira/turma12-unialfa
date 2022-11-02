@@ -19,12 +19,19 @@ class FormaBolo
             return;
         }
 
-        echo "Misturando os ingredientes... " . json_encode($this->ingredientes). "<br>";
+        echo "Misturando os ingredientes... " . json_encode($this->ingredientes) . "<br>";
     }
 
     public function colocarNoForno(int $tempoForno = 1): void
     {
         $this->tempoForno = $tempoForno;
         echo "O bolo está assando tempo total: $this->tempoForno Horas<br>";
+    }
+
+    public function transferirIngredientes(string $ingrediente, FormaBolo $boloAReceberIngrediente): void
+    {
+        array_push($boloAReceberIngrediente->ingredientes, $ingrediente);
+
+        echo "Ingredientes enviados para o outro bolo";
     }
 }
