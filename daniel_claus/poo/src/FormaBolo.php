@@ -18,13 +18,13 @@ class FormaBolo{
             echo "Não temos ingredientes suficientes";
             return;
         }
-            echo "Misturando os ingredientes " . json_encode($this->ingredientes);
+            echo "Misturando os ingredientes " . json_encode($this->ingredientes . '<br>');
     }
 
     public function colocarNoForno(int $tempoForno = 1): void
     {
         $this->tempoForno = $tempoForno;
-        echo 'Colocando no forno o bolo, tempo para ficar pronto é de $this->tempoForno horas <br>';
+        echo "Colocando no forno o bolo, tempo para ficar pronto é de $this->tempoForno horas <br>";
 
     }
 
