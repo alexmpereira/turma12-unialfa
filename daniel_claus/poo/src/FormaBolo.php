@@ -28,4 +28,11 @@ class FormaBolo{
 
     }
 
+    public function transferirIngredientes(string $ingredientes, FormaBolo $boloAReceberIngredientes):void
+    {
+        array_push($boloAReceberIngredientes->ingredientes, $ingrediente);
+
+        echo "Ingredientes enviados para o outro bolo <br>";
+    }
+
 }
