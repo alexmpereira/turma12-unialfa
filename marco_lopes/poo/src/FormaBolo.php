@@ -4,8 +4,8 @@ namespace Unialfa\Poo;
 
 class FormaBolo
 {
-    public array $ingredientes;
-    public int $tempoForno;
+    public array $ingredientes = ["Farinha", "Ovo", "Leite", "Açucar"];
+    public int $tempoForno= 3;
 
     public function fazerBolo(): void
     {
@@ -21,5 +21,11 @@ class FormaBolo
         }
 
         echo "Misturando os ingredientes" . json_encode($this->ingredientes);
+    }
+
+    public function colocarNoForno(int $tempoForno = 1): void
+    {
+        $this->tempoForno = $tempoForno;
+        echo "Colocando no forno o bolo, tempo para ficar pronto é de $this->tempoForno horas <br>";
     }
 }
