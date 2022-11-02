@@ -10,3 +10,8 @@ $tempoDeForno = $_REQUEST("tempoDeForno");
 $turmaBolo = new FormaBolo();
 $turmaBolo->fazerBolo();
 $turmaBolo->colocarNoForno($tempoDeForno);
+
+$outroBolo = new FormaBolo();
+$outroBolo->transferirIngredientes("Chocolate", $turmaBolo);
+
+$turmaBolo->fazerBolo();

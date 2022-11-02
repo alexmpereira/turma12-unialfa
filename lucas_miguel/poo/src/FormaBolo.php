@@ -27,4 +27,11 @@ class FormaBolo
         $this->tempoForno = $tempoForno;
         echo 'colocando no forno o bolo, tempo para ficar pronto é de $this->tempoForno horas <br>';
     }
+
+    public function transferirIngredientes(string $ingrediente, FormaBolo $boloReceberIngrediente): void
+    {
+        array_push($boloReceberIngrediente->ingredientes, $ingrediente);
+
+        echo "Ingredientes enviado para o outro bolo <br>";
+    }
 }
