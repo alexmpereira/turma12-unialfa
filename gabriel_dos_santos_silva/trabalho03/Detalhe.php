@@ -5,11 +5,11 @@ namespace UniAlfa\Trabalho;
 class Detalhe {
 
 
-    public int $id;
-    public string $modelo;
-    public bool $arCondicionado;
-    public bool $vidrosEletricos;
-    public bool $tetoSolar;
+    private int $id;
+    private string $modelo;
+    private bool $arCondicionado;
+    private bool $vidrosEletricos;
+    private bool $tetoSolar;
 
     public function setId($id):void
     {

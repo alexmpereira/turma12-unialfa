@@ -4,11 +4,11 @@ namespace UniAlfa\Trabalho;
 
 class Carro {
 
-    public int $id;
+    private int $id;
 
-    public Marca $marca;
+    private Marca $marca;
 
-    public Detalhe $detalhe;
+    private Detalhe $detalhe;
 
 
     public function setId($id):void
