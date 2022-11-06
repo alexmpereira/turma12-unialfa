@@ -1,0 +1,2 @@
+Para executar o projeto basta possuir o Docker e docker compose instalado e rodar o comando: docker-compose up -d
+Um container será criado e poderá ser acessado via navegador através da URL: localhost:4580

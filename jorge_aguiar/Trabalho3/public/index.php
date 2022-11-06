@@ -1,7 +1,7 @@
 <?php
-// ini_set('display_errors', 1);
-// ini_set('display_startup_erros', 1);
-// error_reporting(E_ALL);
+ini_set('display_errors', 1);
+ini_set('display_startup_erros', 1);
+error_reporting(E_ALL);
 require_once __DIR__ . "/../vendor/autoload.php";
 
 use Unialfa\Poo\Marca;
@@ -17,11 +17,11 @@ function fabricar($nomeMarca, $nomeModelo, $opcionais)
     $marca->setMarca($nomeMarca);
     $detalhes->setDetalhes($opcionais);
 
-    $carro->setMarcaModelo($marca->getMarca());
+    $carro->setMarca($marca->getMarca());
     $carro->setModelo($nomeModelo);
     $carro->setDetalhes($detalhes->getDetalhes());
 
-    echo "Marca: " . $carro->getMarcaModelo() . ",<br> Modelo: " . $carro->getModelo() . ",<br> Opcionais: " . $carro->getDetalhes();
+    echo "Marca: " . $carro->getMarca() . ",<br> Modelo: " . $carro->getModelo() . ",<br> Opcionais: " . $carro->getDetalhes();
 }
 
 
