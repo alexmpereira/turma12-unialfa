@@ -33,9 +33,7 @@ Sou um jovem que busca crescimente além do meu alcançe, busco conhecimentos qu
 
 * Conhecimento com a parte de Hardware. 
  
-
 **  GAZIN < TECH >
-
 
 # Exercicios sobre Docker!
 
