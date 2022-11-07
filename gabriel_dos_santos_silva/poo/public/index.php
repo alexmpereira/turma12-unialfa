@@ -1,14 +1,15 @@
 <?php
 
-require_once __DIR__ . './../vendor/autoload.php';
-
-require './../src/FormaBolo.php';
+require_once __DIR__ . '/../vendor/autoload.php';
 
 use UniAlfa\Poo\FormaBolo;
 
-$turmaBolo = new FormaBolo;
-$outroBolo = new FormaBolo;
+$tempoDeForno = $_REQUEST["tempoDeForno"];
 
-var_dump($turmaBolo);
-echo "<br>";
-var_dump($outroBolo);
+$turmaBolo = new FormaBolo();
+$turmaBolo->fazerBolo();
+$turmaBolo->colocarNoForno($tempoDeForno);
+
+$outroBolo = new FormaBolo();
+$outroBolo->transferirIngredientes("Banana", $turmaBolo);
+$outroBolo->fazerBolo();
