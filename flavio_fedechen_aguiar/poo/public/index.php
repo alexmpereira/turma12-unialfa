@@ -10,7 +10,3 @@ $outroBolo = new FormaBolo();
 var_dump($turmaBolo);
 echo '<br>';
 var_dump($outroBolo);
-echo '<br>';
-
-
-echo phpinfo();
