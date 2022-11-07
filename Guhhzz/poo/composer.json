@@ -1,8 +1,8 @@
 {
-    "name": "jorge.aguiar/poo",
+    "name": "Guhhzz/poo",
     "autoload": {
         "psr-4": {
-            "Unialfa\\Poo\\": "src/"
+            "Unialfa\\Poo\\": "trabalho3/"
         }
     },
     "require": {}
