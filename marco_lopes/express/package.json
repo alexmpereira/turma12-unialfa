@@ -1,0 +1,12 @@
+{
+    "name": "express",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index",
+    "scripts": {
+        "test": ""
+    },
+    "dependencies": {
+        "express": "^4.18.1"
+    }
+}
