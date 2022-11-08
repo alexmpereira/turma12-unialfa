@@ -2,10 +2,10 @@
 namespace UniAlfa\Trabalho;
 class Manufacturer {
     public function manufacturer(): Vehicle {
-        $detalhes = new Details();
-        $detalhes->setId(1);
-        $detalhes->setModel('Civic');
-        $detalhes->setYear('2017');
+        $details = new Details();
+        $details->setId(1);
+        $details->setModel('Civic');
+        $details->setYear('2017');
 
         $brand = new Brand();
         $brand->setId(1);
