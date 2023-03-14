@@ -15,5 +15,6 @@ use App\Http\Controllers\ClientController;
 |
 */
 
-Route::get('/cliente', [ClientController::class, 'index']);
+Route::get('/cliente', [ClientController::class, 'index'])->name('clients.index');
+Route::get('/cliente/{id}', [ClientController::class, 'show'])->name('clients.show');
 
