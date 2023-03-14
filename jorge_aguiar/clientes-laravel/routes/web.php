@@ -16,6 +16,10 @@ use App\Http\Controllers\ProdutoController;
 */
 
 Route::get('/clients', [ClientController::class, 'index'])->name('clients.index');
+Route::get('/clients/create', [ClientController::class, 'create'])->name('clients.create');
 Route::get('/clients/{id}', [ClientController::class, 'show'])->name('clients.show');
+
+
+
 Route::get('/produtos', [ProdutoController::class, 'index'])->name('produtos.index');
 Route::get('/produtos/{id}', [ProdutoController::class, 'show'])->name('produtos.show');
