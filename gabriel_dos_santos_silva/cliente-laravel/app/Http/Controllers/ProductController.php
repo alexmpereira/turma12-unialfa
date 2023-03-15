@@ -12,4 +12,14 @@ class ProductController extends Controller
 
         return view('products.index', ['products'=>$products]);
     }
+
+    public function create() {
+        return view('products.create');
+    }
+
+    public function store(Request $req) {
+        $dados = $req->except('_token');
+        Product::create($dados);
+        return redirect('/products');
+    }
 }

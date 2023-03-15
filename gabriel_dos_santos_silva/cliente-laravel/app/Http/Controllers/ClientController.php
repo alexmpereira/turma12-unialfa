@@ -24,4 +24,32 @@ class ClientController extends Controller
             'client' => $client
         ]);
     }
+
+    public function create()
+    {
+        return view('clients.create');
+    }
+
+    public function store(Request $req)
+    {
+        $dados = $req->except('_token');
+        Client::create($dados);
+        return redirect('/clients');
+    }
+
+    public function edit(int $id)
+    {
+        $client = Client::find($id);
+        return view('clients.edit', ['client' => $client]);
+    }
+
+    public function update(int $id, Request $req) {
+        $client = Client::find($id);
+        $client->update([
+            'nome' => $req->nome,
+            'endereco' => $req->endereco,
+            'observacao' => $req->observacao
+        ]);
+        return redirect('/clients');
+    }
 }
