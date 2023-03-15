@@ -8,13 +8,16 @@ return new class extends Migration
 {
     /**
      * Run the migrations.
+     *
+     * @return void
      */
-    public function up(): void
+    public function up()
     {
         Schema::create('clients', function (Blueprint $table) {
             $table->id();
             $table->string('nome',100);
             $table->string('endereco',200);
+            $table->string('nada',200);
             $table->text('observacao');
             $table->timestamps();
         });
@@ -22,8 +25,10 @@ return new class extends Migration
 
     /**
      * Reverse the migrations.
+     *
+     * @return void
      */
-    public function down(): void
+    public function down()
     {
         Schema::dropIfExists('clients');
     }
