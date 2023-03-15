@@ -27,4 +27,32 @@ class ClientController extends Controller
     {
         return view('clients.create');
     }
+
+    public function store(Request $request)
+    {
+        //Se chegou aqui então o token não é mais necessário, pois já cumpriu sua função. Então devemos remove-lo...
+        $dados = $request->except('_token');
+        Client::create($dados);
+        return redirect('/clients');
+    }
+
+    public function edit(int $id)
+    {
+        $client = Client::find($id);
+
+        return view('clients.edit', [
+            'client' => $client
+        ]);
+    }
+
+    public function update(int $id, Request $request)
+    {
+        $client = Client::find($id);
+        $client->update([
+            'nome' => $request->nome,
+            'endereco' => $request->endereco,
+            'observacao' => $request->observacao
+        ]);
+        return redirect('/clients');
+    }
 }

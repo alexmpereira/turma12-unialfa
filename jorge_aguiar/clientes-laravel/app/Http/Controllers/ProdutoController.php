@@ -22,4 +22,11 @@ class ProdutoController extends Controller
             'produto' => $produto
         ]);
     }
+
+    public function create()
+    {
+        return view('produtos.create');
+    }
+
+
 }

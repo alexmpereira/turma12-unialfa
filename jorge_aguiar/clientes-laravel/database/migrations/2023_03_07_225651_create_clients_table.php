@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('nome', 100);
             $table->string('endereco', 200);
-            $table->text('observacao');
+            $table->text('observacao')->nullable();
             $table->timestamps();
         });
     }

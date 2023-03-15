@@ -10,9 +10,10 @@
 </head>
 
 <body>
-    <nav class="navbar bg-body-tertiary">
+    <nav class="navbar bg-body-tertiary mb-5">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">UniAlfa</a>
+            <a class="navbar-brand" href="{{ route('clients.index') }}">UniAlfa</a>
+            <a class="navitem" href="{{ route('produtos.index') }}">Produtos</a>
         </div>
     </nav>
     <div class="container">
