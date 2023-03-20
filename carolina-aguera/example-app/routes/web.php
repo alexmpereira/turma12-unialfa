@@ -14,6 +14,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/clients', [ClientController::class,'index'])->name('clients.index');
-Route::get('/clients/{id}', [ClientController::class,'show'])->name('clients.show');
-?>
+//Routes GET
+Route::get('/clients', [ClientController::class, 'index'])->name('clients.index');
+Route::get('/clients/create', [ClientController::class, 'create'])->name('clients.create');
+Route::get('/clients/{id}', [ClientController::class, 'show'])->name('clients.show');
+Route::get('/clients/{id}/edit', [ClientController::class, 'edit'])->name('clients.edit');
+
+//Routes POST and UPDATE
+Route::post('/clients', [ClientController::class, 'store'])->name('clients.store');
+Route::put('/clients/{id}', [ClientController::class, 'update'])->name('clients.update');
