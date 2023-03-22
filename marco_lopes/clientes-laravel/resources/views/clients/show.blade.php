@@ -11,7 +11,7 @@
           <p><strong>ID:</strong>{{ $client->id}}</p>
           <p><strong>Nome:</strong>{{ $client->nome}}</p>
           <p><strong>Frase de Efeito:</strong>{{ $client->nada}}</p>
-          <p><strong>Observações:</strong>{{ $client->observacao}}</p>
+          <p><strong>Observação:</strong>{{ $client->observacao}}</p>
           <br>
             <a class="btn btn-dark" href="{{route('clients.index')}}">
               Voltar

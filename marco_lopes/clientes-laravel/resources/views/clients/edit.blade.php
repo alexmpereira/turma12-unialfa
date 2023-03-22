@@ -21,7 +21,7 @@
           <br>
           <label for="observacao" class="from-label">Observação</label>
           <br>
-          <textarea class="form-control" name="observacao" id="observacao" cols="30" rows="10"> value="{{$client->observacao}}" </textarea>
+          <textarea class="form-control" name="observacao" id="observacao" cols="30" rows="10">{{$client->observacao}}</textarea>
           <br>
           <br>
 
