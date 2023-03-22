@@ -16,6 +16,14 @@
                     <p class="card-text"><strong>Valor: </strong>{{ $product->valor }}</p>
                     <br>
                 </div>
+                <a class="btn btn-primary" href="{{ route('products.edit', $product->id) }}">Editar</a>
+                <form action="{{ route('products.destroy', $product) }}" method="POST">
+                    @method('DELETE')
+                    @csrf
+                    <button class="btn btn-danger w-100" type="submit" onclick="confirm('Tem certeza?')">
+                        Excluir
+                    </button>
+                </form>
             </div>
         @endforeach
     </div>
